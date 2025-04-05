@@ -1,0 +1,14 @@
+package ecssem2;
+
+public class Constructor {
+	Constructor(){
+		System.out.println("Iam a non argument constructor");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Constructor a=new Constructor();
+System.out.println(a);
+	}
+
+}
