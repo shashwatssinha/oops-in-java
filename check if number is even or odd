@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class check {
+	public void evenOdd(int num){
+    if(num%2==0) {
+    	System.out.println("The number is even");
+    } else {
+    	System.out.println("The number is odd");
+    }
+	}
+	public static void main(String args[]) {
+		Scanner s=new Scanner(System.in);
+		int num;
+		System.out.println("Enter the number: ");
+		num=s.nextInt();
+		check obj=new check();
+		obj.evenOdd(num);
+		s.close();
+		
+		
+	}
+
+}
