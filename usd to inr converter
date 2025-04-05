@@ -1,0 +1,12 @@
+// Simple Currency Converter
+import java.util.Scanner;
+
+public class CurrencyConverter {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter amount in USD: ");
+        double usd = sc.nextDouble();
+        double inr = usd * 84.5;  // Conversion rate
+        System.out.println("Amount in INR: " + inr);
+    }
+}
