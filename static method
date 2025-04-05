@@ -1,0 +1,15 @@
+package ecssem2;
+
+public class StaticMethod {
+	String name;
+	static void ex () {
+		System.out.println("Static method");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ex();
+
+	}
+
+}
